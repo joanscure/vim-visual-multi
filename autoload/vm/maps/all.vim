@@ -47,8 +47,8 @@ fun! vm#maps#all#permanent() abort
   let visual = g:Vm.leader.visual
 
   " map <c-n> in any case
-  let maps["Find Under"][0]              = '<C-n>'
-  let maps["Find Subword Under"][0]      = '<C-n>'
+  let maps["Find Under"][0]              = '<C-d>'
+  let maps["Find Subword Under"][0]      = '<C-d>'
 
   if g:VM_default_mappings
     let maps["Reselect Last"][0]         = leader.'gS'
